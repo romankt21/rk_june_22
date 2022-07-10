@@ -1,0 +1,47 @@
+.three_cards {
+    height: 300px;
+    width: 700px;
+    box-sizing: border-box;
+
+    /*background: blue;*/
+    /*margin-left: 200px;*/
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+
+    /*background: yellow;*/
+
+    border: #73807f solid 2px;
+ }
+
+.card > h3{
+    text-align: center;
+   margin-top: 80px;
+}
+
+.card > p {
+    color: #73807f;
+    text-align: center;
+}
+.button_box {
+    display: flex;
+    justify-content: center;
+}
+
+
+.button_box >button {
+    height: 50px;
+    width: 150px;
+
+    margin-top: 20px;
+    font-size: 15px;
+
+
+
+}
