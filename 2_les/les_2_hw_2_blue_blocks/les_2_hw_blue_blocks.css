@@ -1,0 +1,96 @@
+.Widgets {
+
+    height: 300px;
+    width: 600px;
+
+    background: blue;
+
+}
+
+.Widgets > h3 {
+
+    color: white;
+    text-align: center;
+    padding-top: 125px;
+
+    font-size: 30px;
+}
+
+.three {
+display: flex;
+}
+
+.BigWidgets {
+    height: 250px;
+    width: 200px;
+    background: darkblue;
+
+    box-sizing: border-box;
+    border: black solid 3px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.BigWidgets > h4 {
+    color: white;
+    font-size: 20px;
+}
+
+
+.BiggerWidgets  {
+    height: 250px;
+    width: 200px;
+    background: darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: black solid 3px;
+
+}
+
+.BiggerWidgets > h4 {
+    color: white;
+    font-size: 20px;
+}
+
+
+.HugeWidgets {
+    height: 250px;
+    width: 200px;
+    background: darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+    border: black solid 3px;
+}
+
+.HugeWidgets >h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.Contact {
+    height: 500px;
+    width: 600px;
+
+    background: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact > h3 {
+    color: white;
+    font-size: 30px;
+}

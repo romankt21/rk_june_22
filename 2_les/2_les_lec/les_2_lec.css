@@ -1,0 +1,136 @@
+.target {
+
+    width: 300px;
+    height: auto;
+
+    background: yellow;
+
+    overflow: hidden;
+    border: blue  solid  3px;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+.point {
+    width: 200px;
+    height: 200px;
+    background: coral;
+}
+
+a {
+    display: block;
+}
+
+.target_1{
+    background: yellow;
+
+    width: 200px;
+    min-height: 100px;
+}
+
+.target_1 > h2 {
+    text-align: center;
+}
+
+
+.target_1 > p {
+    text-align:  justify;
+    box-sizing: border-box;
+    padding: 0 30px;
+    border-left: coral solid 3px;
+}
+
+.target_1 >img {
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    height: 800px;
+    width: 1200px;
+    background: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    float: left;
+    flex-direction: column-reverse;
+}
+
+.b3 {
+    order: 1;
+}
+.new {
+    height: 200px;
+    width: 1150px;
+    background: orange;
+}
+.new > p {
+    float: left;
+}
+
+.new > img {
+    float: left;
+}
+
+.target_2 {
+    background: yellow;
+}
+
+.qqq {
+    display: flex;
+}
+
+
+
+.qqq > p {
+    width: 100px;
+}
+
+
+.card {
+    width: 250px;
+    height: 400px;
+    background: silver;
+
+    box-sizing: border-box;
+    padding-top: 30px;
+
+}
+
+.fa-star {
+    font-size: 40px;
+}
+
+.icon {
+    /*height: 100px;*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description > h3 {
+    text-align: center;
+}
+
+.description > p {
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: justify;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-box > button {
+    width: 150px;
+    height: 50px;
+    background: green;
+    margin-top: 40px;
+}
