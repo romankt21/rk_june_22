@@ -1,0 +1,99 @@
+.container {
+    height: 600px;
+    width: 700px;
+
+    background: lightsteelblue;
+
+    margin-left: 300px;
+}
+.box_1 {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: yellow;
+}
+.window {
+    height: 50px;
+    width: 150px;
+
+    margin-left: 80px;
+
+    border-radius: 10px;
+    background: #1d1d4f;
+}
+
+.icon {
+    width: 100px;
+    font-size: 40px;
+    background: red;
+
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box_2 {
+    height: 350px;
+
+    background: #1d1d4f;
+}
+
+.boxThree {
+    height: 100px;
+    width: 350px;
+
+    background: #2402ff;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    bottom: 50px;
+    /*left: 175px;*/
+    left: calc(0.5*( 700px - 350px))
+}
+.boxThree_1  {
+    height: 100px;
+    width: 100px;
+
+    background: orange;
+
+   /* position: relative;*/
+   /*bottom: 50px;*/
+   /* left: 50px;*/
+
+    border-radius: 10px;
+}
+
+.boxThree_2  {
+    height: 100px;
+    width: 100px;
+
+    background: greenyellow;
+
+    border-radius: 10px;
+
+    /*position: relative;*/
+    /*top: -150px;*/
+
+    /*right: -20px;*/
+}
+
+
+.boxThree_3  {
+    height: 100px;
+    width: 100px;
+
+    background: palevioletred;
+
+    border-radius: 10px;
+
+
+}
+
+
