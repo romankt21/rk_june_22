@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
 
-    background: yellow;
+    /*background: lightblue;*/
 }
 .window {
     height: 50px;
@@ -28,7 +28,7 @@
 .icon {
     width: 100px;
     font-size: 40px;
-    background: red;
+    /*background: red;*/
 
     margin-right: 50px;
     display: flex;
@@ -46,7 +46,7 @@
     height: 100px;
     width: 350px;
 
-    background: #2402ff;
+    /*background: #2402ff;*/
 
     display: flex;
     justify-content: space-between;
@@ -61,39 +61,11 @@
     height: 100px;
     width: 100px;
 
-    background: orange;
-
-   /* position: relative;*/
-   /*bottom: 50px;*/
-   /* left: 50px;*/
+    background: cornflowerblue;
 
     border-radius: 10px;
 }
 
-.boxThree_2  {
-    height: 100px;
-    width: 100px;
 
-    background: greenyellow;
-
-    border-radius: 10px;
-
-    /*position: relative;*/
-    /*top: -150px;*/
-
-    /*right: -20px;*/
-}
-
-
-.boxThree_3  {
-    height: 100px;
-    width: 100px;
-
-    background: palevioletred;
-
-    border-radius: 10px;
-
-
-}
 
 
