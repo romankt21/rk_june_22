@@ -1,0 +1,80 @@
+.container {
+    height: 350px;
+    width: 700px;
+    box-sizing: border-box;
+
+    margin-top: 30px;
+
+    /*background: silver;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    /*position: relative;*/
+
+
+}
+
+.box {
+    height: 100%;
+    width: 30%;
+
+    /*background: blue;*/
+
+    border: black solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    position: relative;
+    /*justify-content: space-evenly;*/
+    /*gap: 5px;*/
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: green solid 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: orange;
+    background: white;
+
+    position: absolute;
+    top: -25px;
+
+}
+
+
+
+
+
+.box > h3 {
+    margin-top: 80px;
+}
+
+.box > p {
+    text-align: center;
+    padding: 10px 0 50px 0;
+}
+
+.button_box > button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    background: white;
+
+}
+
+button:hover {
+    background: blue;
+    cursor: pointer;
+}
