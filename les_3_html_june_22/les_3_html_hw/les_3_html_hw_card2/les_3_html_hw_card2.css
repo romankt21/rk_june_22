@@ -40,6 +40,11 @@
     height: 350px;
 
     background: #1d1d4f;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    position: relative;
 }
 
 .boxThree {
@@ -51,11 +56,10 @@
     display: flex;
     justify-content: space-between;
 
-    position: relative;
+    position: absolute;
 
-    bottom: 50px;
-    /*left: 175px;*/
-    left: calc(0.5*( 700px - 350px))
+    bottom: -50px;
+
 }
 .boxThree_1  {
     height: 100px;

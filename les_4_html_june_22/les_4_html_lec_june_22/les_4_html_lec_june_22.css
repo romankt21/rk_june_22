@@ -1,0 +1,96 @@
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+
+/*.target {*/
+/*    height: 300px;*/
+/*    width: 300px;*/
+
+/*    background: silver;*/
+/*}*/
+
+/*@media screen and (min-width: 900px) and (max-width: 1200px){*/
+/*    .target {*/
+/*        width: 100px;*/
+/*    }*/
+/*}*/
+
+/*@media  screen and (min-width: 600px) and (max-width: 900px) {*/
+/*.target {*/
+/*    background: yellow;*/
+/*}*/
+/*}*/
+
+/*2 частина*/
+/*.wrap {*/
+/*    background: lightsalmon;*/
+/*    width: 100%;*/
+/*    min-height: 800px;*/
+/*}*/
+
+/*.a {*/
+/*    width: 100%;*/
+/*    height: 200px;*/
+/*    background: silver;*/
+/*}*/
+
+/*.father {*/
+/*    width: 100%;*/
+/*    height: 600px;*/
+/*    background: cornflowerblue;*/
+/*    display: flex;*/
+/*}*/
+
+/*.container_bcdefg {*/
+/*    width: 75%;*/
+/*    height: 600px;*/
+/*    background: lawngreen;*/
+
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+
+
+/*}*/
+
+/*.h {*/
+/*    width: 25%;*/
+/*    height: 600px;*/
+/*    background: yellow;*/
+/*}*/
+
+/*.box {*/
+/*    width: 33%;*/
+/*    height: 300px;*/
+/*    background: orange;*/
+/*    border: black solid 2px;*/
+/*}*/
+
+/*@media  screen and (max-width: 1300px){*/
+/*    .father {*/
+/*        flex-direction: column;*/
+/*        height: 920px;*/
+/*    }*/
+/*    .container_bcdefg {*/
+/*        width: 100%;*/
+/*        height: 920px;*/
+/*    }*/
+
+/*    .h {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/
+
+/*3 частина*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 10px;
+}
+.target {
+    width: 50%;
+    height: 100vh;
+    background: silver;
+
+    font-size: 1.5rem;
+}

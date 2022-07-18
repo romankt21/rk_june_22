@@ -1,0 +1,133 @@
+/*li {*/
+/*    background: greenyellow;*/
+/*}*/
+
+/*.ben1 > li {*/
+/*    background: orange;*/
+/*}*/
+
+/*.ben1 > li > a {*/
+/*    color: blue;*/
+/*}*/
+
+/*ul.ben1.target >li {*/
+/*    background: cornflowerblue;*/
+/*}*/
+
+
+/*ul a, span {*/
+/*    font-size: 20px;*/
+/*    font-family: Arial, serif;*/
+/*}*/
+
+/*#uniq {*/
+/*background: silver;*/
+/*}*/
+
+/*ul.ben1.target#uniq {*/
+/*  background: silver;*/
+/*}*/
+
+
+/*#uniq {*/
+/*    background: greenyellow !important;*/
+/*}*/
+
+/*.target*/
+
+
+/*li:nth-child(2n+1) {*/
+/*    color: red;*/
+/*}*/
+
+
+
+/*ul:nth-child(even) > li:nth-child(odd) {*/
+/*    background: silver;*/
+/*}*/
+
+/*li:hover {*/
+/*    background: greenyellow;*/
+/*    transition: 300ms;*/
+/*}*/
+
+/*html, body {*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+
+/*.up {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+
+/*    background: darkblue;*/
+/*    color: red;*/
+
+/*    border-radius: 50%;*/
+
+/*    text-align: center;*/
+/*    vertical-align: center;*/
+/*    line-height: 50px;*/
+
+/*    position: fixed;*/
+/*    top: 100px;*/
+/*    right: 100px;*/
+/*}*/
+
+
+
+/*a {*/
+/*    color: white;*/
+/*}*/
+
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+
+/*.high {*/
+/*    height: 300px;*/
+/*    background: mediumblue;*/
+/*position: relative;*/
+
+/*}*/
+/*.target {*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+
+/*    position: absolute;*/
+/*    left: 50px;*/
+/*    !*bottom: 0;*!*/
+
+/*}*/
+
+/*.box {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    background: mediumorchid;*/
+/*}*/
+
+
+/*.low {*/
+/*    height: 300px;*/
+/*    background: silver;*/
+/*}*/
+
+.w200 {
+    width: 200px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.mar {
+    margin-bottom: 10px;
+}
+
+.purple {
+    background: mediumpurple;
+    border-radius: 20%;
+}
